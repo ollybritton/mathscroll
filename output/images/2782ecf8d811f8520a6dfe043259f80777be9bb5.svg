@@ -1,0 +1,22 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="12.915ex" height="2.343ex" style="vertical-align: -0.505ex;" viewBox="0 -791.3 5560.6 1008.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\mathsf {L}}\subseteq {\mathsf {SL}}\subseteq {\mathsf {NL}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJSS-4C" d="M87 0V694H191V79L297 80H451L499 81V0H87Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2286" d="M84 346Q84 468 166 546T360 635Q361 635 370 635T395 635T430 636T475 636T524 636H679Q694 628 694 616Q694 607 681 597L522 596H470H441Q366 596 338 592T266 568Q244 557 224 542T179 500T139 433T124 346V341Q124 253 185 185Q244 121 328 103Q348 98 366 98T522 96H681Q694 86 694 76Q694 64 679 56H526Q510 56 480 56T434 55Q350 55 289 71T172 141Q84 223 84 346ZM104 -131T104 -118T118 -98H679Q694 -106 694 -118T679 -138H118Q104 -131 104 -118Z"></path>
+<path stroke-width="1" id="E1-MJSS-53" d="M55 514Q55 589 115 652T283 716Q315 716 345 711T396 699T432 685T457 672T467 667Q467 666 459 618T449 568Q383 634 282 634Q214 634 182 600T150 525Q150 507 155 492T172 465T194 446T222 432T247 423T272 416T289 412Q353 396 378 384Q432 358 466 307T500 194Q500 110 438 44T272 -22Q215 -22 159 -5T73 28T44 50Q45 51 49 75T57 122T62 146L65 143Q68 140 74 136T88 125T107 111T131 98T160 85T194 74T232 66T274 63H286Q327 63 366 96T406 182Q406 245 352 280Q329 296 265 310T173 339Q124 363 90 409T55 514Z"></path>
+<path stroke-width="1" id="E1-MJSS-4E" d="M88 0V694H235L252 659Q261 639 364 428T526 84V694H619V0H472L455 35Q453 39 330 294T185 601L181 611V0H88Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJSS-4C" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-2286" x="820" y="0"></use>
+<g transform="translate(1876,0)">
+ <use xlink:href="#E1-MJSS-53" x="0" y="0"></use>
+ <use xlink:href="#E1-MJSS-4C" x="556" y="0"></use>
+</g>
+ <use xlink:href="#E1-MJMAIN-2286" x="3253" y="0"></use>
+<g transform="translate(4309,0)">
+ <use xlink:href="#E1-MJSS-4E" x="0" y="0"></use>
+ <use xlink:href="#E1-MJSS-4C" x="708" y="0"></use>
+</g>
+</g>
+</svg>

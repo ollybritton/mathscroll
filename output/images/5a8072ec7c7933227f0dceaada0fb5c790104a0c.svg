@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.196ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1376 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\mathsf {HA}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJSS-48" d="M86 0V694H190V399H517V694H621V0H517V323H190V0H86Z"></path>
+<path stroke-width="1" id="E1-MJSS-41" d="M183 181Q183 179 152 91T118 0H28L154 346L280 693Q281 694 333 694H385L511 349Q636 4 638 2Q638 0 584 0H530L464 183H184L183 181ZM324 606Q319 578 292 492T238 332T210 256Q210 254 324 254T438 255L429 281L419 308Q409 336 395 378T365 465T339 551T324 611V606Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJSS-48" x="0" y="0"></use>
+ <use xlink:href="#E1-MJSS-41" x="708" y="0"></use>
+</g>
+</svg>

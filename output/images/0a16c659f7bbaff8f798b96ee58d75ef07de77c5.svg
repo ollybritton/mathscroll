@@ -1,0 +1,109 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="35.076ex" height="12.509ex" style="vertical-align: -5.671ex;" viewBox="0 -2944.1 15102.3 5385.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\begin{aligned}{\boldsymbol {1}}={\begin{pmatrix}1&amp;0\\0&amp;1\end{pmatrix}},\qquad &amp;{\boldsymbol {i}}={\begin{pmatrix}0&amp;1\\-1&amp;0\end{pmatrix}},\\{\boldsymbol {j}}={\begin{pmatrix}0&amp;1\\1&amp;0\end{pmatrix}},\qquad &amp;{\boldsymbol {k}}={\begin{pmatrix}1&amp;0\\0&amp;-1\end{pmatrix}}.\end{aligned}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAINB-31" d="M481 0L294 3Q136 3 109 0H96V62H227V304Q227 546 225 546Q169 529 97 529H80V591H97Q231 591 308 647L319 655H333Q355 655 359 644Q361 640 361 351V62H494V0H481Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-3D" d="M56 347Q56 360 70 367H707Q722 359 722 347Q722 336 708 328L390 327H72Q56 332 56 347ZM56 153Q56 168 72 173H708Q722 163 722 153Q722 140 707 133H70Q56 140 56 153Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-28" d="M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-31" d="M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-30" d="M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-29" d="M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z"></path>
+<path stroke-width="1" id="E1-MJSZ3-28" d="M701 -940Q701 -943 695 -949H664Q662 -947 636 -922T591 -879T537 -818T475 -737T412 -636T350 -511T295 -362T250 -186T221 17T209 251Q209 962 573 1361Q596 1386 616 1405T649 1437T664 1450H695Q701 1444 701 1441Q701 1436 681 1415T629 1356T557 1261T476 1118T400 927T340 675T308 359Q306 321 306 250Q306 -139 400 -430T690 -924Q701 -936 701 -940Z"></path>
+<path stroke-width="1" id="E1-MJSZ3-29" d="M34 1438Q34 1446 37 1448T50 1450H56H71Q73 1448 99 1423T144 1380T198 1319T260 1238T323 1137T385 1013T440 864T485 688T514 485T526 251Q526 134 519 53Q472 -519 162 -860Q139 -885 119 -904T86 -936T71 -949H56Q43 -949 39 -947T34 -937Q88 -883 140 -813Q428 -430 428 251Q428 453 402 628T338 922T245 1146T145 1309T46 1425Q44 1427 42 1429T39 1433T36 1436L34 1438Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+<path stroke-width="1" id="E1-MJMATHBI-69" d="M205 615Q205 646 229 670T283 694Q310 694 324 679T339 641Q339 610 315 586T258 562Q235 562 220 577T205 615ZM24 296Q24 305 34 328T63 380T115 430T187 452Q205 452 223 448T262 435T295 406T308 360Q308 345 287 290T240 170T207 87Q202 67 202 57Q202 42 215 42Q235 42 257 64Q288 92 302 140Q307 156 310 159T330 162H336H347Q367 162 367 148Q367 140 357 117T329 65T276 14T201 -8Q158 -8 121 15T83 84Q83 104 133 229T184 358Q189 376 189 388Q189 402 177 402Q156 402 134 380Q103 352 89 304Q84 288 81 285T61 282H55H44Q24 282 24 296Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2212" d="M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z"></path>
+<path stroke-width="1" id="E1-MJMATHBI-6A" d="M321 616Q321 648 346 671T400 694Q425 694 440 680T456 640Q456 609 431 586T376 562Q353 562 337 577T321 616ZM297 360T297 373T294 392T288 400T278 401H276Q241 399 210 372T158 303Q151 287 148 285T129 282H123H116Q102 282 97 284T92 298Q96 331 153 391T279 451Q357 451 388 422T420 354V339L371 142Q363 111 353 71T339 13T329 -30T318 -64T308 -88T296 -109T283 -125T264 -142Q190 -202 88 -202Q44 -202 16 -181T-12 -125Q-12 -93 11 -68T68 -43Q92 -43 108 -58T124 -93Q124 -121 106 -144Q101 -150 103 -150Q120 -150 147 -128T191 -64Q194 -57 242 136T294 345Q297 360 297 373Z"></path>
+<path stroke-width="1" id="E1-MJMATHBI-6B" d="M99 -8Q71 -8 58 9T45 39Q45 51 116 336L188 622H184Q183 622 179 622T169 623T157 624T146 624T136 624T131 625Q119 628 119 642Q119 647 123 661T129 679Q133 684 144 685T220 690Q293 694 307 694Q324 694 328 679Q328 674 280 482Q231 290 231 287Q231 285 234 286Q259 302 294 334T356 390T420 433T493 452Q528 452 546 427T564 364Q564 308 538 282T480 256Q456 256 441 269T425 308Q425 339 444 359T483 384L502 389Q502 395 496 398Q493 400 483 400Q465 400 449 395T409 374T373 347T323 305T268 257Q274 256 282 256Q312 251 329 247T371 232T411 202Q431 181 431 146Q431 132 427 110T422 73Q422 44 440 44H442Q462 44 478 64T502 102T514 141Q518 157 522 159T547 162H558Q578 162 578 148Q578 118 537 56T440 -7H432Q374 -7 337 21T299 94Q299 103 301 116T304 139Q304 164 281 181T235 202L212 206H211Q176 47 160 24Q137 -8 99 -8Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2E" d="M78 60Q78 84 95 102T138 120Q162 120 180 104T199 61Q199 36 182 18T139 0T96 17T78 60Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g transform="translate(167,0)">
+<g transform="translate(-11,0)">
+<g transform="translate(0,1350)">
+ <use xlink:href="#E1-MJMAINB-31" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-3D" x="853" y="0"></use>
+<g transform="translate(1909,0)">
+ <use xlink:href="#E1-MJSZ3-28"></use>
+<g transform="translate(903,0)">
+<g transform="translate(-11,0)">
+ <use xlink:href="#E1-MJMAIN-31" x="0" y="650"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="0" y="-750"></use>
+</g>
+<g transform="translate(1490,0)">
+ <use xlink:href="#E1-MJMAIN-30" x="0" y="650"></use>
+ <use xlink:href="#E1-MJMAIN-31" x="0" y="-750"></use>
+</g>
+</g>
+ <use xlink:href="#E1-MJSZ3-29" x="3061" y="-1"></use>
+</g>
+ <use xlink:href="#E1-MJMAIN-2C" x="5707" y="0"></use>
+</g>
+<g transform="translate(104,-1351)">
+ <use xlink:href="#E1-MJMATHBI-6A" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-3D" x="749" y="0"></use>
+<g transform="translate(1805,0)">
+ <use xlink:href="#E1-MJSZ3-28"></use>
+<g transform="translate(903,0)">
+<g transform="translate(-11,0)">
+ <use xlink:href="#E1-MJMAIN-30" x="0" y="650"></use>
+ <use xlink:href="#E1-MJMAIN-31" x="0" y="-750"></use>
+</g>
+<g transform="translate(1490,0)">
+ <use xlink:href="#E1-MJMAIN-31" x="0" y="650"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="0" y="-750"></use>
+</g>
+</g>
+ <use xlink:href="#E1-MJSZ3-29" x="3061" y="-1"></use>
+</g>
+ <use xlink:href="#E1-MJMAIN-2C" x="5603" y="0"></use>
+</g>
+</g>
+<g transform="translate(7975,0)">
+<g transform="translate(0,1350)">
+ <use xlink:href="#E1-MJMATHBI-69" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-3D" x="683" y="0"></use>
+<g transform="translate(1739,0)">
+ <use xlink:href="#E1-MJSZ3-28"></use>
+<g transform="translate(903,0)">
+<g transform="translate(-11,0)">
+ <use xlink:href="#E1-MJMAIN-30" x="389" y="650"></use>
+<g transform="translate(0,-750)">
+ <use xlink:href="#E1-MJMAIN-2212" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-31" x="778" y="0"></use>
+</g>
+</g>
+<g transform="translate(2268,0)">
+ <use xlink:href="#E1-MJMAIN-31" x="0" y="650"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="0" y="-750"></use>
+</g>
+</g>
+ <use xlink:href="#E1-MJSZ3-29" x="3839" y="-1"></use>
+</g>
+ <use xlink:href="#E1-MJMAIN-2C" x="6315" y="0"></use>
+</g>
+<g transform="translate(0,-1351)">
+ <use xlink:href="#E1-MJMATHBI-6B" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-3D" x="882" y="0"></use>
+<g transform="translate(1938,0)">
+ <use xlink:href="#E1-MJSZ3-28"></use>
+<g transform="translate(903,0)">
+<g transform="translate(-11,0)">
+ <use xlink:href="#E1-MJMAIN-31" x="0" y="650"></use>
+ <use xlink:href="#E1-MJMAIN-30" x="0" y="-750"></use>
+</g>
+<g transform="translate(1490,0)">
+ <use xlink:href="#E1-MJMAIN-30" x="389" y="650"></use>
+<g transform="translate(0,-750)">
+ <use xlink:href="#E1-MJMAIN-2212" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-31" x="778" y="0"></use>
+</g>
+</g>
+</g>
+ <use xlink:href="#E1-MJSZ3-29" x="3839" y="-1"></use>
+</g>
+ <use xlink:href="#E1-MJMAIN-2E" x="6514" y="0"></use>
+</g>
+</g>
+</g>
+</g>
+</svg>

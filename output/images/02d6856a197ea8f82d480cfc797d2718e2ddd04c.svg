@@ -1,0 +1,11 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="3.163ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1362 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\mathsf {DC}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJSS-44" d="M88 0V694H237H258H316Q383 694 425 686T511 648Q578 604 622 525T666 343Q666 190 564 86Q494 18 400 3Q387 1 237 0H88ZM565 341Q565 409 546 463T495 550T429 600T359 621Q348 623 267 623H189V71H267Q272 71 286 71T310 70Q461 70 527 184Q565 251 565 341Z"></path>
+<path stroke-width="1" id="E1-MJSS-43" d="M59 347Q59 440 100 521T218 654T392 705Q473 705 550 680Q577 670 577 667Q576 666 572 642T564 595T559 571Q515 601 479 613T392 626Q300 626 232 549T164 347Q164 231 229 150T397 68Q453 68 489 80T568 120L581 129L582 110Q584 91 585 71T587 46Q580 40 566 31T502 5T396 -11Q296 -11 218 41T99 174T59 347Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJSS-44" x="0" y="0"></use>
+ <use xlink:href="#E1-MJSS-43" x="722" y="0"></use>
+</g>
+</svg>

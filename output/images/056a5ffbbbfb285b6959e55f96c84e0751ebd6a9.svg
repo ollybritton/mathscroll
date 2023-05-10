@@ -1,0 +1,25 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="7.748ex" height="7.176ex" style="vertical-align: -3.005ex;" viewBox="0 -1796 3335.8 3089.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\cfrac {\vdash \lnot \lnot P}{\vdash P}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-22A2" d="M55 678Q55 679 56 681T58 684T61 688T65 691T70 693T77 694Q88 692 95 679V367H540Q555 359 555 347Q555 334 540 327H95V15Q88 2 77 0Q73 0 70 1T65 3T61 6T59 9T57 13T55 16V678Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-AC" d="M56 323T56 336T70 356H596Q603 353 611 343V102Q598 89 591 89Q587 89 584 90T579 94T575 98T572 102L571 209V316H70Q56 323 56 336Z"></path>
+<path stroke-width="1" id="E1-MJMATHI-50" d="M287 628Q287 635 230 637Q206 637 199 638T192 648Q192 649 194 659Q200 679 203 681T397 683Q587 682 600 680Q664 669 707 631T751 530Q751 453 685 389Q616 321 507 303Q500 302 402 301H307L277 182Q247 66 247 59Q247 55 248 54T255 50T272 48T305 46H336Q342 37 342 35Q342 19 335 5Q330 0 319 0Q316 0 282 1T182 2Q120 2 87 2T51 1Q33 1 33 11Q33 13 36 25Q40 41 44 43T67 46Q94 46 127 49Q141 52 146 61Q149 65 218 339T287 628ZM645 554Q645 567 643 575T634 597T609 619T560 635Q553 636 480 637Q463 637 445 637T416 636T404 636Q391 635 386 627Q384 621 367 550T332 412T314 344Q314 342 395 342H407H430Q542 342 590 392Q617 419 631 471T645 554Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+<g transform="translate(120,0)">
+<rect stroke="none" width="3095" height="60" x="0" y="220"></rect>
+<g transform="translate(60,819)">
+<g></g>
+ <use xlink:href="#E1-MJMAIN-22A2" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-AC" x="889" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-AC" x="1556" y="0"></use>
+ <use xlink:href="#E1-MJMATHI-50" x="2224" y="0"></use>
+</g>
+<g transform="translate(727,-880)">
+<g></g>
+ <use xlink:href="#E1-MJMAIN-22A2" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMATHI-50" x="889" y="0"></use>
+</g>
+</g>
+</g>
+</svg>

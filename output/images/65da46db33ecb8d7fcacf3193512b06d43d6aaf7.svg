@@ -1,0 +1,13 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="2.34ex" height="2.176ex" style="vertical-align: -0.338ex;" viewBox="0 -791.3 1007.5 936.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle {\textsf {fix}}}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJSS-66" d="M262 705H267Q300 705 347 694V612L336 616Q303 628 274 628H266Q224 628 199 605Q187 590 184 579T181 541V507V444H287V371H184V0H94V371H27V444H94V492Q94 544 95 550Q102 617 151 661T262 705Z"></path>
+<path stroke-width="1" id="E1-MJSS-69" d="M67 576V680H171V576H67ZM74 0V444H164V0H74Z"></path>
+<path stroke-width="1" id="E1-MJSS-78" d="M187 229L6 444H107L227 294L344 444H393L442 443Q439 437 299 268L267 229L460 0H359L294 88Q280 107 262 131T236 166L227 177L100 0H0Q1 1 47 58T140 171T187 229Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJSS-66"></use>
+ <use xlink:href="#E1-MJSS-69" x="306" y="0"></use>
+ <use xlink:href="#E1-MJSS-78" x="546" y="0"></use>
+</g>
+</svg>

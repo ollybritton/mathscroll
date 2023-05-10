@@ -1,0 +1,15 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="5.354ex" height="2.843ex" style="vertical-align: -0.838ex;" viewBox="0 -863.1 2305 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
+<title id="MathJax-SVG-1-Title">{\displaystyle \Gamma \backslash \mathbf {H} ,}</title>
+<defs aria-hidden="true">
+<path stroke-width="1" id="E1-MJMAIN-393" d="M128 619Q121 626 117 628T101 631T58 634H25V680H554V676Q556 670 568 560T582 444V440H542V444Q542 445 538 478T523 545T492 598Q454 634 349 634H334Q264 634 249 633T233 621Q232 618 232 339L233 61Q240 54 245 52T270 48T333 46H360V0H348Q324 3 182 3Q51 3 36 0H25V46H58Q100 47 109 49T128 61V619Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2216" d="M56 731Q56 740 62 745T75 750Q85 750 92 740Q96 733 270 255T444 -231Q444 -239 438 -244T424 -250Q414 -250 407 -240Q404 -236 230 242T56 731Z"></path>
+<path stroke-width="1" id="E1-MJMAINB-48" d="M400 0Q376 3 226 3Q75 3 51 0H39V62H147V624H39V686H51Q75 683 226 683Q376 683 400 686H412V624H304V388H595V624H487V686H499Q523 683 673 683Q824 683 848 686H860V624H752V62H860V0H848Q824 3 674 3Q523 3 499 0H487V62H595V326H304V62H412V0H400Z"></path>
+<path stroke-width="1" id="E1-MJMAIN-2C" d="M78 35T78 60T94 103T137 121Q165 121 187 96T210 8Q210 -27 201 -60T180 -117T154 -158T130 -185T117 -194Q113 -194 104 -185T95 -172Q95 -168 106 -156T131 -126T157 -76T173 -3V9L172 8Q170 7 167 6T161 3T152 1T140 0Q113 0 96 17Z"></path>
+</defs>
+<g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
+ <use xlink:href="#E1-MJMAIN-393" x="0" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-2216" x="625" y="0"></use>
+ <use xlink:href="#E1-MJMAINB-48" x="1126" y="0"></use>
+ <use xlink:href="#E1-MJMAIN-2C" x="2026" y="0"></use>
+</g>
+</svg>
