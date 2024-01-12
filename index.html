@@ -2,243 +2,290 @@
 <html>
 
 <head>
-  <title>MathScroll</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    @font-face {
-      font-family: "Computer Modern Roman";
-      src: url('fonts/computer-modern-roman.ttf');
-    }
+    <title>MathScroll</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: "Computer Modern Roman";
+            src: url('fonts/computer-modern-roman.ttf');
+        }
 
-    @font-face {
-      font-family: "Computer Modern Bold";
-      src: url('fonts/computer-modern-bold.ttf');
-    }
+        @font-face {
+            font-family: "Computer Modern Bold";
+            src: url('fonts/computer-modern-bold.ttf');
+        }
 
-    @font-face {
-      font-family: "Computer Modern Sans";
-      src: url('fonts/computer-modern-sans.woff');
-    }
+        @font-face {
+            font-family: "Computer Modern Sans";
+            src: url('fonts/computer-modern-sans.woff');
+        }
 
-    body {
-      max-width: 1000px;
-      margin: auto;
-    }
+        body {
+            max-width: 1000px;
+            margin: auto;
+        }
 
-    #pageTitle {
-      font-family: "Computer Modern Bold", "Linux Libertine", "Georgia", "Times", serif;
-      text-align: center;
-    }
+        #pageTitle {
+            font-family: "Computer Modern Bold", "Linux Libertine", "Georgia", "Times", serif;
+            text-align: center;
+        }
 
-    #pageSubtitle {
-      font-family: "Computer Modern Roman", "sans-serif";
-      text-align: center;
-      margin-bottom: 0.5rem;
-    }
+        #pageSubtitle {
+            font-family: "Computer Modern Roman", "sans-serif";
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
 
-    #pageAttribution {
-      font-family: "Computer Modern Sans", "sans-serif";
-      text-align: center;
-      width: 80%;
-      margin: 0 auto;
-      opacity: 0.8
-    }
+        #pageAttribution {
+            font-family: "Computer Modern Sans", "sans-serif";
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+            opacity: 0.8
+        }
 
-    .card {
-      display: flex;
-      border: 1px solid rgb(162, 169, 177);
-      border-spacing: 3px;
-      background-color: rgb(248, 249, 250);
-      padding: 1em;
-      margin: 1em;
-      align-items: center;
-      color: black;
-      text-decoration: none;
-    }
+        .card {
+            display: flex;
+            border: 1px solid rgb(162, 169, 177);
+            border-spacing: 3px;
+            background-color: rgb(248, 249, 250);
+            padding: 1em;
+            margin: 1em;
+            align-items: center;
+            color: black;
+            text-decoration: none;
+        }
 
-    .image-container {
-      height: 150px;
-      flex-basis: 150px;
-      flex-grow: 0;
-      flex-shrink: 0;
-      margin: 1em;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: rgb(248, 249, 250) !important;
-    }
+        .image-container {
+            height: 150px;
+            flex-basis: 150px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            margin: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(248, 249, 250) !important;
+        }
 
-    .image-container>img {
-      max-height: 150px;
-      max-width: 150px;
-    }
+        .image-container>img {
+            max-height: 150px;
+            max-width: 150px;
+        }
 
-    .card>div>h1 {
-      font-family: "Computer Modern Bold", "Linux Libertine", "Georgia", "Times", serif;
-      font-size: 1em;
-    }
+        .card>div>h1 {
+            font-family: "Computer Modern Bold", "Linux Libertine", "Georgia", "Times", serif;
+            font-size: 1em;
+        }
 
-    .card>div>p {
-      font-size: .875em;
-      line-height: 1.6;
-      color: rgb(32, 33, 34);
-      font-family: "Computer Modern Sans", "sans-serif";
-    }
+        .card>div>p {
+            font-size: .875em;
+            line-height: 1.6;
+            color: rgb(32, 33, 34);
+            font-family: "Computer Modern Sans", "sans-serif";
+        }
 
-    .fork {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
+        .fork {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
 
-    @media (prefers-color-scheme: dark) {
-      img {
-        filter: invert(1);
-      }
-    }
-  </style>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [['{', '}']]
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-  </script>
+        @media (prefers-color-scheme: dark) {
+            img {
+                filter: invert(1);
+            }
+        }
+    </style>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['{', '}'], ['$', '$']]
+            },
+            svg: {
+                fontCache: 'global'
+            }
+        };
+    </script>
 </head>
 
 <body>
-  <h1 id="pageTitle">MathScroll</h1>
-  <h3 id="pageSubtitle">Infinitely Scroll Mathematics on Wikipedia</h3>
-  <h5 id="pageAttribution">
-    This project is almost a direct fork of the excellent <a
-      href="https://github.com/retrohacker/wikiscroll">WikiScroll</a>
-    with a few minor changes.
-  </h5>
-  <div id='content'>
-  </div>
-  <script>
-    const content = document.getElementById('content');
-    let fetching = false;
-    let count;
+    <h1 id="pageTitle">MathScroll</h1>
+    <h3 id="pageSubtitle">Infinitely Scroll Mathematics</h3>
+    <h5 id="pageAttribution">
+        This project is almost a direct fork of the excellent <a
+            href="https://github.com/retrohacker/wikiscroll">WikiScroll</a>
+        with a few minor changes.
+    </h5>
+    <div id="toggles">
+        <!-- <input id="toggle-wikipedia" type="checkbox" checked />
+        <label for="toggle-wikipedia">Wikipedia articles</label>
+        <input id="toggle-wikipedia" type="checkbox" checked />
+        <label for="toggle-wikipedia">Math StackExchange</label>
+        <input id="toggle-wikipedia" type="checkbox" checked />
+        <label for="toggle-wikipedia">MathOverflow</label> -->
+    </div>
+    <div id='content'>
+    </div>
+    <script>
+        const content = document.getElementById('content');
+        let fetching = false;
+        let count;
+        let stackexchangecache = [];
 
-    function request(method, url, cb) {
-      const req = new XMLHttpRequest();
-      function onFailure() {
-        setTimeout(request, 250, method, url, cb);
-      }
-      function onResponse() {
-        if (((this.status / 100) | 0) !== 2) {
-          return onFailure();
+        function request(method, url, cb) {
+            const req = new XMLHttpRequest();
+            function onFailure() {
+                setTimeout(request, 250, method, url, cb);
+            }
+            function onResponse() {
+                if (((this.status / 100) | 0) !== 2) {
+                    return onFailure();
+                }
+                let json;
+                try {
+                    json = JSON.parse(this.responseText);
+                } catch (e) {
+                    return cb(e);
+                }
+                return cb(null, JSON.parse(this.responseText));
+            }
+            req.addEventListener('load', onResponse);
+            req.addEventListener('error', onFailure);
+            req.open(method, url);
+            req.send();
         }
-        let json;
-        try {
-          json = JSON.parse(this.responseText);
-        } catch (e) {
-          return cb(e);
+
+        function fetchEntry(i, cb) {
+            request('GET', './output/articles/' + i + '.json', cb);
         }
-        return cb(null, JSON.parse(this.responseText));
-      }
-      req.addEventListener('load', onResponse);
-      req.addEventListener('error', onFailure);
-      req.open(method, url);
-      req.send();
-    }
 
-    function fetchEntry(i, cb) {
-      request('GET', './output/articles/' + i + '.json', cb);
-    }
-
-    function addCard(entry) {
-      const wrapper = document.createElement('a');
-      wrapper.className = 'card';
-      wrapper.href = 'https://en.wikipedia.org/wiki/' + entry.url;
-      const imageContainer = document.createElement('div');
-      imageContainer.className = 'image-container';
-      const image = document.createElement('img');
-      image.src = './output/images/' + encodeURIComponent(entry.image);
-      imageContainer.appendChild(image);
-      wrapper.appendChild(imageContainer);
-
-      const verticalRule = document.createElement("div")
-      verticalRule.className = "vr"
-      wrapper.appendChild(verticalRule)
-
-      const text = document.createElement('div');
-      const title = document.createElement('h1');
-      title.innerText = entry.title;
-      text.appendChild(title);
-      let summary = document.createElement('p');
-      entry.summary = entry.summary.replace(/\{\\displaystyle[^}]*\}/g, "");
-      summary.innerText = entry.summary;
-      text.appendChild(summary);
-      wrapper.appendChild(text);
-      content.appendChild(wrapper);
-
-      // MathJax.typeset()
-    }
-
-    function fetchCount(cb) {
-      request('GET', './output/00_index_count.txt', cb);
-    }
-
-    function pick() {
-      return Math.floor(Math.random() * (count + 1));
-    }
-
-    function fetchBatch(size, cb) {
-      if (fetching) {
-        return;
-      }
-      fetching = true;
-      let fetched = 0;
-      for (let i = 0; i < size; i++) {
-        fetchEntry(pick(), function haveEntry(err, content) {
-          addCard(content);
-          if (++fetched === size - 1) {
-            fetching = false;
-            cb();
-          }
-        })
-      }
-    }
-
-    function registerScroll() {
-      let lastKnownScrollPosition = 0;
-      let waiting = false;
-
-      function pullMaybe(scrollPos) {
-        const pageHeight = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
-        if ((pageHeight - 1000) <= scrollPos + window.innerHeight) {
-          fetchBatch(25, function noop() { })
+        function fetchStackExchange(cb) {
+            request('GET', "./math-stackexchange.json", cb)
         }
-      }
 
-      document.addEventListener('scroll', function (e) {
-        lastKnownScrollPosition = window.pageYOffset;
+        // entry.url
+        // entry.image
+        // entry.title
+        // entry.summary
 
-        if (!waiting) {
-          window.requestAnimationFrame(function () {
-            pullMaybe(lastKnownScrollPosition);
-            waiting = false;
-          });
+        function addCard(entry) {
+            const wrapper = document.createElement('a');
+            wrapper.className = 'card';
 
-          waiting = true;
+            if (entry.type == "wiki") {
+                wrapper.href = 'https://en.wikipedia.org/wiki/' + entry.url;
+            } else {
+                wrapper.href = entry.url;
+            }
+            const imageContainer = document.createElement('div');
+            imageContainer.className = 'image-container';
+            const image = document.createElement('img');
+
+            if (entry.type == "wiki") {
+                image.src = './output/images/' + encodeURIComponent(entry.image);
+            } else {
+                image.src = 'https://cdn.sstatic.net/Sites/math/Img/favicon.ico'
+            }
+            imageContainer.appendChild(image);
+            wrapper.appendChild(imageContainer);
+
+            const verticalRule = document.createElement("div")
+            verticalRule.className = "vr"
+            wrapper.appendChild(verticalRule)
+
+            const text = document.createElement('div');
+            const title = document.createElement('h1');
+            title.innerText = entry.title;
+            text.appendChild(title);
+            let summary = document.createElement('p');
+            entry.summary = entry.summary.replace(/\{\\displaystyle[^}]*\}/g, "");
+            summary.innerText = entry.summary;
+            text.appendChild(summary);
+            wrapper.appendChild(text);
+            content.appendChild(wrapper);
+
+            MathJax.typeset()
         }
-      });
-    }
 
-    fetchCount(function (err, c) {
-      count = c
-      fetchBatch(25, function () {
-        registerScroll();
-      })
-    });
-  </script>
+        function fetchCount(cb) {
+            request('GET', './output/00_index_count.txt', cb);
+        }
+
+        function pick() {
+            return Math.floor(Math.random() * (count + 1));
+        }
+
+        // fetch <size> number of wikipedia articles, and then add them all to the page
+        function fetchBatch(size, cb) {
+            if (fetching) {
+                return;
+            }
+            fetching = true;
+            let fetched = 0;
+            for (let i = 0; i < size; i++) {
+                if (Math.random() > 1 / 2) {
+                    if (stackexchangecache.length == 0) {
+                        fetchStackExchange((err, data) => {
+                            stackexchangecache = data
+
+                            entry = stackexchangecache[Math.floor(Math.random() * stackexchangecache.length)]
+
+                            addCard(entry)
+                        })
+                    } else {
+                        entry = stackexchangecache[Math.floor(Math.random() * stackexchangecache.length)]
+                        addCard(entry)
+                    }
+                } else {
+                    fetchEntry(pick(), function haveEntry(err, content) {
+                        content["type"] = "wiki"
+                        addCard(content);
+                        if (++fetched === size - 1) {
+                            fetching = false;
+                            cb();
+                        }
+                    })
+                }
+
+                // temporarily replace with stack exchange questions only
+            }
+        }
+
+        function registerScroll() {
+            let lastKnownScrollPosition = 0;
+            let waiting = false;
+
+            function pullMaybe(scrollPos) {
+                const pageHeight = Math.max(document.body.scrollHeight, document.body.offsetHeight, document.documentElement.clientHeight, document.documentElement.scrollHeight, document.documentElement.offsetHeight);
+                if ((pageHeight - 1000) <= scrollPos + window.innerHeight) {
+                    fetchBatch(25, function noop() { })
+                }
+            }
+
+            document.addEventListener('scroll', function (e) {
+                lastKnownScrollPosition = window.pageYOffset;
+
+                if (!waiting) {
+                    window.requestAnimationFrame(function () {
+                        pullMaybe(lastKnownScrollPosition);
+                        waiting = false;
+                    });
+
+                    waiting = true;
+                }
+            });
+        }
+
+        fetchCount(function (err, c) { // get number of articles json files
+            count = c
+            fetchBatch(25, function () { // fetch 25 entries,
+                registerScroll(); // start listening for scrolling to the end, so we can pre-load
+            })
+        });
+    </script>
 </body>
 
 </html>
