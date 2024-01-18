@@ -1,0 +1,91 @@
+@font-face {
+    font-family: "Computer Modern Roman";
+    src: url('fonts/computer-modern-roman.ttf');
+}
+
+@font-face {
+    font-family: "Computer Modern Bold";
+    src: url('fonts/computer-modern-bold.ttf');
+}
+
+@font-face {
+    font-family: "Computer Modern Sans";
+    src: url('fonts/computer-modern-sans.woff');
+}
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#pageTitle {
+    font-family: "Computer Modern Bold", "Linux Libertine", "Georgia", "Times", serif;
+    text-align: center;
+}
+
+#pageSubtitle {
+    font-family: "Computer Modern Roman", "sans-serif";
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+#pageAttribution {
+    font-family: "Computer Modern Sans", "sans-serif";
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.8
+}
+
+.card {
+    display: flex;
+    border: 1px solid rgb(162, 169, 177);
+    border-spacing: 3px;
+    background-color: rgb(248, 249, 250);
+    padding: 1em;
+    margin: 1em;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.image-container {
+    height: 150px;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(248, 249, 250) !important;
+}
+
+.image-container>img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.card>div>h1 {
+    font-family: "Computer Modern Bold", "Linux Libertine", "Georgia", "Times", serif;
+    font-size: 1em;
+}
+
+.card>div>p {
+    font-size: .875em;
+    line-height: 1.6;
+    color: rgb(32, 33, 34);
+    font-family: "Computer Modern Sans", "sans-serif";
+}
+
+.fork {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    img {
+        filter: invert(1);
+    }
+}
