@@ -3,13 +3,13 @@ import requests
 from tqdm import tqdm
 import json
 
-BASE_URL = "https://math.stackexchange.com"
-MAX = 100
+BASE_URL = "https://mathoverflow.net"
+MAX = 50
 
 exported = []
 
 for i in tqdm(range(MAX)):
-    URL = f"https://math.stackexchange.com/questions?tab=votes&pagesize=50&page={i + 1}"
+    URL = f"https://mathoverflow.net/questions?tab=votes&pagesize=50&page={i + 1}"
 
     response = requests.get(URL)
     soup = BeautifulSoup(response.text, "html.parser")
@@ -37,10 +37,10 @@ for i in tqdm(range(MAX)):
             "title": title_text,
             "url": BASE_URL + link,
             "summary": summary_text,
-            "type": "ms"
+            "type": "mo"
         })
 
-with open("math-stackexchange.json", "w") as f:
+with open("math-mathoverflow.json", "w") as f:
     f.write(json.dumps(exported))
    
 print(len(exported))

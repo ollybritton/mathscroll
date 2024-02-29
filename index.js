@@ -2,6 +2,8 @@ const content = document.getElementById("content");
 let fetching = false;
 let count;
 let stackexchangecache = [];
+let mathoverflowcache = [];
+let oxfordcache = [];
 
 function request(method, url, cb) {
   const req = new XMLHttpRequest();
@@ -27,11 +29,26 @@ function request(method, url, cb) {
 }
 
 function fetchEntry(i, cb) {
+  console.log("Fetching Wikipedia articles");
   request("GET", "./output/articles/" + i + ".json", cb);
 }
 
 function fetchStackExchange(cb) {
+  console.log(
+    "Fetching Mathematics Stack Exchange questions",
+    stackexchangecache.length
+  );
   request("GET", "./math-stackexchange.json", cb);
+}
+
+function fetchMathOverflow(cb) {
+  console.log("Fetching MathOverflow questions", mathoverflowcache.length);
+  request("GET", "./math-mathoverflow.json", cb);
+}
+
+function fetchOxford(cb) {
+  console.log("Fetching Oxford course data", oxfordcache.length);
+  request("GET", "./oxford-courses.json", cb);
 }
 
 // entry.url
@@ -54,8 +71,13 @@ function addCard(entry) {
 
   if (entry.type == "wiki") {
     image.src = "./output/images/" + encodeURIComponent(entry.image);
-  } else {
+  } else if (entry.type == "ms") {
     image.src = "https://cdn.sstatic.net/Sites/math/Img/favicon.ico";
+  } else if (entry.type == "mo") {
+    image.src = "https://cdn.sstatic.net/Sites/mathoverflow/Img/favicon.ico";
+  } else if (entry.type == "ox") {
+    image.src =
+      "https://www.ox.ac.uk/sites/default/themes/custom/oxweb/favicon.ico";
   }
   imageContainer.appendChild(image);
   wrapper.appendChild(imageContainer);
@@ -75,7 +97,7 @@ function addCard(entry) {
   wrapper.appendChild(text);
   content.appendChild(wrapper);
 
-  MathJax.typeset();
+  MathJax.typesetPromise();
 }
 
 function fetchCount(cb) {
@@ -92,11 +114,12 @@ function fetchBatch(size, cb) {
     return;
   }
   fetching = true;
-  console.log("fetching batch");
+  //   console.log("fetching batch");
   let fetched = 0;
   for (let i = 0; i < size; i++) {
-    console.log(fetched);
-    if (Math.random() > 1 / 2) {
+    // console.log(fetched);
+    let rand = Math.random() * 100;
+    if (rand < 30) {
       if (stackexchangecache.length == 0) {
         fetchStackExchange((err, data) => {
           stackexchangecache = data;
@@ -125,6 +148,70 @@ function fetchBatch(size, cb) {
           cb();
         }
       }
+    } else if (rand < 60) {
+      //   console.log("yo");
+      if (mathoverflowcache.length == 0) {
+        fetchMathOverflow((err, data) => {
+          mathoverflowcache = data;
+
+          entry =
+            mathoverflowcache[
+              Math.floor(Math.random() * mathoverflowcache.length)
+            ];
+
+          addCard(entry);
+
+          if (++fetched === size - 1) {
+            fetching = false;
+            cb();
+          }
+        });
+      } else {
+        entry =
+          mathoverflowcache[
+            Math.floor(Math.random() * mathoverflowcache.length)
+          ];
+        addCard(entry);
+
+        if (++fetched === size - 1) {
+          fetching = false;
+          cb();
+        }
+      }
+    } else if (rand < 65) {
+      if (oxfordcache.length == 0) {
+        fetchOxford((err, data) => {
+          for (const [year, courses] of Object.entries(data)) {
+            for (const course of courses) {
+              let courseName = course[0];
+              let courseURL = course[1];
+              oxfordcache.push({
+                title: `${courseName}`,
+                url: courseURL,
+                summary: `${year} course at the University of Oxford.`,
+                type: "ox",
+              });
+            }
+          }
+
+          entry = oxfordcache[Math.floor(Math.random() * oxfordcache.length)];
+
+          addCard(entry);
+
+          if (++fetched === size - 1) {
+            fetching = false;
+            cb();
+          }
+        });
+      } else {
+        entry = oxfordcache[Math.floor(Math.random() * oxfordcache.length)];
+        addCard(entry);
+
+        if (++fetched === size - 1) {
+          fetching = false;
+          cb();
+        }
+      }
     } else {
       fetchEntry(pick(), function haveEntry(err, content) {
         content["type"] = "wiki";
@@ -135,8 +222,6 @@ function fetchBatch(size, cb) {
         }
       });
     }
-
-    // temporarily replace with stack exchange questions only
   }
 }
 
@@ -152,7 +237,7 @@ function registerScroll() {
       document.documentElement.scrollHeight,
       document.documentElement.offsetHeight
     );
-    if (pageHeight - 1000 <= scrollPos + window.innerHeight) {
+    if (pageHeight - 1500 <= scrollPos + window.innerHeight) {
       fetchBatch(25, function noop() {});
     }
   }
@@ -175,7 +260,6 @@ fetchCount(function (err, c) {
   // get number of articles json files
   count = c;
   fetchBatch(25, function () {
-    console.log("hello??");
     // fetch 25 entries,
     registerScroll(); // start listening for scrolling to the end, so we can pre-load
   });

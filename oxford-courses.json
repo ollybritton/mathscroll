@@ -1,0 +1,482 @@
+{
+    "Prelims": [
+        [
+            "Linear Algebra I",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4936"
+        ],
+        [
+            "Analysis I",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4935"
+        ],
+        [
+            "Introductory Calculus",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4934"
+        ],
+        [
+            "Probability",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4933"
+        ],
+        [
+            "Geometry",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4932"
+        ],
+        [
+            "Linear Algebra II",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4946"
+        ],
+        [
+            "Groups and Group Actions",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4945"
+        ],
+        [
+            "Analysis II",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4944"
+        ],
+        [
+            "Dynamics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4943"
+        ],
+        [
+            "Fourier Series and PDEs",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4942"
+        ],
+        [
+            "Multivariable Calculus",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4941"
+        ],
+        [
+            "Computational Mathematics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4940"
+        ],
+        [
+            "Analysis III",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4949"
+        ],
+        [
+            "Statistics and Data Analysis",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4948"
+        ],
+        [
+            "Constructive Mathematics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4947"
+        ]
+    ],
+    "Part A": [
+        [
+            "Linear Algebra",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4972"
+        ],
+        [
+            "Differential Equations I",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4971"
+        ],
+        [
+            "Metric Spaces and Complex Analysis",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4970"
+        ],
+        [
+            "Probability",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4969"
+        ],
+        [
+            "Quantum Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4968"
+        ],
+        [
+            "Rings and Modules",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4966"
+        ],
+        [
+            "Integration",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4965"
+        ],
+        [
+            "Topology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4964"
+        ],
+        [
+            "Differential Equations II",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4963"
+        ],
+        [
+            "Numerical Analysis",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4962"
+        ],
+        [
+            "Statistics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4961"
+        ],
+        [
+            "Fluids and Waves",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4960"
+        ],
+        [
+            "Integral Transforms",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4959"
+        ],
+        [
+            "Calculus of Variations",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4958"
+        ],
+        [
+            "Graph Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4957"
+        ],
+        [
+            "Group Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4956"
+        ],
+        [
+            "Mathematical Modelling in Biology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4955"
+        ],
+        [
+            "Multidimensional Analysis and Geometry",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4954"
+        ],
+        [
+            "Number Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4953"
+        ],
+        [
+            "Projective Geometry",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4952"
+        ],
+        [
+            "Special Relativity",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4951"
+        ]
+    ],
+    "Part B": [
+        [
+            "Logic",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5012"
+        ],
+        [
+            "Introduction to Representation Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4992"
+        ],
+        [
+            "Galois Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4991"
+        ],
+        [
+            "Geometry of Surfaces",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4990"
+        ],
+        [
+            "Topology and Groups",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4989"
+        ],
+        [
+            "Functional Analysis I",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4988"
+        ],
+        [
+            "Distribution Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4987"
+        ],
+        [
+            "Applied Partial Differential Equations",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4986"
+        ],
+        [
+            "Viscous Flow",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4985"
+        ],
+        [
+            "Further Mathematical Biology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4984"
+        ],
+        [
+            "Numerical Solution of Partial Differential Equations",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4983"
+        ],
+        [
+            "Integer Programming",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4982"
+        ],
+        [
+            "Classical Mechanics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4981"
+        ],
+        [
+            "Probability, Measure and Martingales",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4980"
+        ],
+        [
+            "Information Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4979"
+        ],
+        [
+            "Graph Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4978"
+        ],
+        [
+            "History of Mathematics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4976"
+        ],
+        [
+            "Set Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4993"
+        ],
+        [
+            "Commutative Algebra",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5011"
+        ],
+        [
+            "Lie Algebras",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5424"
+        ],
+        [
+            "Algebraic Curves",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5010"
+        ],
+        [
+            "Algebraic Number Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5009"
+        ],
+        [
+            "Functional Analysis II",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5008"
+        ],
+        [
+            "Fourier Analysis",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5007"
+        ],
+        [
+            "Stochastic Modelling of Biological Processes",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5006"
+        ],
+        [
+            "Waves and Compressible Flow",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5005"
+        ],
+        [
+            "Nonlinear Dynamics, Bifurcations and Chaos",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5004"
+        ],
+        [
+            "Optimisation for Data Science",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5003"
+        ],
+        [
+            "Electromagnetism",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5002"
+        ],
+        [
+            "Further Quantum Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5001"
+        ],
+        [
+            "Continuous Martingales and Stochastic Calculus",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5000"
+        ],
+        [
+            "Mathematical Models of Financial Derivatives",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4999"
+        ],
+        [
+            "Applied Probability",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=4998"
+        ]
+    ],
+    "Part C": [
+        [
+            "Model Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5044"
+        ],
+        [
+            "Analytic Topology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5043"
+        ],
+        [
+            "Homological Algebra",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5041"
+        ],
+        [
+            "Infinite Groups",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5040"
+        ],
+        [
+            "Category Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5039"
+        ],
+        [
+            "Algebraic Topology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5038"
+        ],
+        [
+            "Differentiable Manifolds",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5037"
+        ],
+        [
+            "Algebraic Geometry",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5036"
+        ],
+        [
+            "Lie Groups",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5071"
+        ],
+        [
+            "Modular Forms",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5035"
+        ],
+        [
+            "Additive Combinatorics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5034"
+        ],
+        [
+            "Further Functional Analysis",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5033"
+        ],
+        [
+            "Functional Analytic Methods for PDEs",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5032"
+        ],
+        [
+            "Elasticity and Plasticity",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5030"
+        ],
+        [
+            "Networks",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5029"
+        ],
+        [
+            "Perturbation Methods",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5028"
+        ],
+        [
+            "Topics in Fluid Mechanics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5027"
+        ],
+        [
+            "Mathematical Geoscience",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5026"
+        ],
+        [
+            "Mathematical Physiology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5025"
+        ],
+        [
+            "Numerical Linear Algebra",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5024"
+        ],
+        [
+            "Theories of Deep Learning",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5022"
+        ],
+        [
+            "Theoretical Physics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5021"
+        ],
+        [
+            "General Relativity I",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5020"
+        ],
+        [
+            "Stochastic Differential Equations",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5019"
+        ],
+        [
+            "Combinatorics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5017"
+        ],
+        [
+            "Gödel's Incompleteness Theorems",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5076"
+        ],
+        [
+            "Axiomatic Set Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5075"
+        ],
+        [
+            "Representation Theory of Semisimple Lie Algebras",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5074"
+        ],
+        [
+            "Non-Commutative Rings",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5063"
+        ],
+        [
+            "Introduction to Schemes",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5073"
+        ],
+        [
+            "Geometric Group Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5072"
+        ],
+        [
+            "Elliptic Curves",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5070"
+        ],
+        [
+            "Analytic Number Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5069"
+        ],
+        [
+            "Computational Algebraic Topology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5068"
+        ],
+        [
+            "Riemannian Geometry",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5067"
+        ],
+        [
+            "Low-Dimensional Topology and Knot Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5066"
+        ],
+        [
+            "Hyperbolic Equations",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5065"
+        ],
+        [
+            "Fixed Point Methods for Nonlinear PDEs",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5064"
+        ],
+        [
+            "Applied Complex Variables",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5060"
+        ],
+        [
+            "Optimal Transport & Partial Differential Equations",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5062"
+        ],
+        [
+            "Mathematical Mechanical Biology",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5059"
+        ],
+        [
+            "Continuous Optimisation",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5058"
+        ],
+        [
+            "Theoretical Physics II",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5056"
+        ],
+        [
+            "Introduction to Quantum Information",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5054"
+        ],
+        [
+            "General Relativity II",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5053"
+        ],
+        [
+            "Random Matrix Theory",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5052"
+        ],
+        [
+            "Stochastic Analysis and PDEs",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5051"
+        ],
+        [
+            "Probabilistic Combinatorics",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5050"
+        ],
+        [
+            "Limit Theorems and Large Deviations in Probability",
+            "https://courses.maths.ox.ac.uk/course/view.php?id=5048"
+        ]
+    ]
+}
